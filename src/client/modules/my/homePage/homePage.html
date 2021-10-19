@@ -1,0 +1,22 @@
+<template>
+    <p>Welcome to our shop!</p>
+
+    
+<form action="/action_page.php">
+    
+  <label for="skins">Choose an item to purchase:</label>
+  <select name="Tech Skins" id="skins">
+    <option value="redKB">Red Keyboard</option>
+    <option value="blueKB">Blue Keyboard</option>
+    <option value="rgbCC">RGB Computer Case</option>
+    <option value="iPhoneCase">Leather Iphone Case</option>
+
+
+  </select>
+  <br><br>
+  <lightning-button label="Submit" icon-name="utility:chevronright" icon-position="right" onclick={submitHandler}></lightning-button>
+</form>
+</template>
+
+
+
